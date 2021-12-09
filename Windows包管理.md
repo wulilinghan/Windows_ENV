@@ -73,7 +73,7 @@ choco install intellijidea-community //社区版
 choco install intellijidea-ultimate //旗舰版
 
 //安装dev-package.config文件内描述的所有软件包
-choco install dev-package.config
+choco install  -y dev-package.config
 
 ```
 
