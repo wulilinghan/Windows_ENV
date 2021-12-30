@@ -63,7 +63,6 @@ choco install intellijidea-ultimate //旗舰版
 
 //安装dev-package.config文件内描述的所有软件包
 choco install  -y dev-package.config
-
 ```
 
 dev-package.config：
@@ -152,5 +151,4 @@ choco uninstall nodejs.install --all-versions
 3. 删除环境变量 ChocolateyToolsLocation，部分工具软件安装的位置，删除需谨慎
 4. 删除环境变量 ChocolateyLastPathUpdate
 5. 更新环境变量 PATH ，去掉 Chocolatey 相关的配置
-
 ```
