@@ -6,5 +6,5 @@ rem 设置Chocolatey的安装目录
 setx ChocolateyInstall D:\Chocolatey /M
 
 rem 安装Windows_Chocolatey_Package_Config.config文件内描述的所有软件包
-choco install -y Windows_Chocolatey_Package_Config.config
+choco install Windows_Chocolatey_Package_Config.config -y 
 pause
